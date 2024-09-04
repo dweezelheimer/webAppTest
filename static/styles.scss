@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(245, 235, 235);
+}
+
+.content {
+    max-width: 880px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 0.1);
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+
+        th{
+            background-color: #f0f0f0;
+        }
+    }
+
+a{
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgb(88, 212, 212);
+    color: rgb(58, 10, 10);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+    &:hover{
+        background-color: aliceblue;
+    }
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    margin-top: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+}
